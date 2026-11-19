@@ -15,8 +15,8 @@
 2. **SQL Editor → New query.** Вставь `supabase.sql`, в последней строке замени `admin@example.com` на свой email, нажми **Run**.
 3. **Authentication → Users → Add user → Create new user.** Укажи тот же email и пароль, поставь галочку **Auto Confirm User**.
    Для безопасности: **Authentication → Sign In / Providers → Email** выключи **Allow new users to sign up**, чтобы никто чужой не зарегистрировался.
-4. **Project Settings → API:** скопируй **Project URL** и ключ **anon public** в `config.js`.
-   Ключ `service_role` никуда не вставляй.
+4. **Project Settings → API:** скопируй **Project URL** и **Publishable key** (sb_publishable_…) в `config.js`.
+   Ключ `sb_secret_…` / `service_role` никуда не вставляй.
 5. **Залей папку на Vercel** (через GitHub или перетаскиванием) — сборка не нужна, это статический сайт.
 
 Готово:
